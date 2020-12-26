@@ -113,6 +113,9 @@
   #features .three .p1 {
     text-align: center !important;
   }
+  #features .three .p2 {
+    text-align: center !important;
+  }
 
   /* features-part */
 
@@ -163,6 +166,326 @@
     font-size: 20px !important;
     text-align: center !important;
     line-height: 30px !important;
+  }
+
+  /* footer-part */
+}
+
+
+
+@media (min-width:576px) and (max-width:767px) {
+
+  /* menu-part */
+  nav {
+    padding: 0 15px;
+  }
+
+  nav .fixed {
+    padding: 0 15px !important;
+  }
+
+  nav .navbar-brand img {
+    width: 100%;
+  }
+
+  nav ul {
+    margin-top: 8px;
+    background: #222222;
+  }
+
+  nav ul li a {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  nav ul li a:after {
+    position: absolute;
+    bottom: 2px;
+    left: 138px !important;
+    width: 0%;
+    height: 3px;
+    background: #744fa0;
+    content: "";
+    transition: .4s;
+    text-align: center;
+  }
+
+  nav .tbn {
+    text-align: center;
+  }
+
+  /* menu-part */
+
+  /* banner-part */
+  #banner .banner-slide .overlay p {
+    width: 275px !important;
+    margin-bottom: 70px !important;
+  }
+
+  #banner .banner-slide .overlay a {
+    margin-top: 20px !important;
+  }
+
+  /* banner-part */
+
+  /* about-part */
+  #about {
+    margin-top: 50px !important;
+  }
+
+  #about .text p {
+    width: auto;
+    font-size: 14px !important;
+    text-align: left !important;
+    line-height: 24px !important;
+  }
+
+  #about .image img {
+    margin-left: 75px !important;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  /* about-part */
+
+  /* screenshort-part */
+  #screenshort .image img {
+    width: 100% !important;
+  }
+
+  #screenshort .screen-slide ul li button {
+    width: 14px !important;
+    height: 14px !important;
+    border: 2px solid #353535 !important;
+    outline: none !important;
+  }
+
+  /* screenshort-part */
+
+  /* features-part */
+
+  #features .title h2 {
+    font-size: 20px !important;
+  }
+
+  #features .one .item::after {
+    width: 250px !important;
+  }
+
+  #features .one .item:hover::after {
+    width: 98% !important;
+  }
+
+  #features .two img {
+    margin-left: 14px !important;
+  }
+
+  #features .three h2 {
+    text-align: center !important;
+    margin-top: 20px !important;
+  }
+
+  #features .three .p1 {
+    text-align: center !important;
+  }
+  #features .three .p2{
+    text-align: center !important;
+  }
+
+  /* features-part */
+
+  /* pricing-part */
+
+  #pricing .freeplan {
+    width: 400px;
+    margin: 0 auto !important;
+    border-left: 2px solid #f1f1f1 !important;
+    border-right: 2px solid #f1f1f1 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+
+  #pricing .freeplan:hover {
+    transform: scale(1) !important;
+  }
+  #pricing .freeplan .button{
+    margin-bottom: 60px !important;
+  }
+
+  /* pricing-part */
+  
+  /* member-part */
+  
+  #team-part .member{
+    width: 400px !important;
+    margin: 0 auto;
+  }
+  
+  /* member-part */
+  
+  /* feedback-part */
+
+  #feedback-part .feedback-part .text {
+    width: 455px !important;
+    padding: 30px 20px !important;
+  }
+
+  #feedback-part .feedback-part .img img {
+    width: 100px !important;
+    height: 100px !important;
+  }
+
+  /* feedback-part */
+
+
+  /* footer-part */
+  #footer .icon i {
+    width: 40px !important;
+    height: 40px !important;
+    line-height: 42px !important;
+    font-size: 19px !important;
+  }
+
+  #footer .text p {
+    font-size: 13px;
+
+  }
+
+  .btop {
+    width: 40px !important;
+    height: 40px !important;
+    font-size: 25px !important;
+    text-align: center !important;
+    line-height: 35px !important;
+  }
+
+  /* footer-part */
+
+}
+@media (min-width:768px) and (max-width:991px) {
+
+  /* about-part */
+  #about {
+    margin-top: 50px !important;
+  }
+
+  #about .text p {
+    width: auto;
+    font-size: 14px !important;
+    text-align: center !important;
+    line-height: 24px !important;
+  }
+
+  #about .image img {
+    margin-left: 105px !important;
+    margin-top: 20px;
+    width: 70%;
+  }
+
+  /* about-part */
+
+  /* screenshort-part */
+  #screenshort .image img {
+    width: 100% !important;
+  }
+
+  #screenshort .screen-slide ul li button {
+    width: 14px !important;
+    height: 14px !important;
+    border: 2px solid #353535 !important;
+    outline: none !important;
+  }
+
+  /* screenshort-part */
+
+  /* features-part */
+
+  #features .title h2 {
+    font-size: 20px !important;
+  }
+
+  #features .one .item::after {
+    width: 250px !important;
+  }
+  #features .one{
+    margin-left: 30%;
+    margin-top: 40px;
+  }
+
+  #features .one .item:hover::after {
+    width: 98% !important;
+  }
+
+  #features .two img {
+    margin-top: 40px;
+    margin-left: 30% !important;
+  }
+
+  #features .three h2 {
+    text-align: center !important;
+    margin-top: 20px !important;
+  }
+
+  #features .three .p1 {
+    text-align: center !important;
+  }
+  #features .three .p2{
+    text-align: center !important;
+  }
+
+  /* features-part */
+
+  /* pricing-part */
+
+  #pricing .freeplan {
+    width: 500px;
+    margin: 0 auto !important;
+    border-left: 2px solid #f1f1f1 !important;
+    border-right: 2px solid #f1f1f1 !important;
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+
+  #pricing .freeplan:hover {
+    transform: scale(1.1) !important;
+  }
+  #pricing .freeplan .button{
+    margin-bottom: 60px !important;
+  }
+
+  /* pricing-part */
+  
+  /* member-part */
+  
+  #team-part .member{
+    width: 400px !important;
+    margin: 0 auto;
+  }
+  
+  /* member-part */
+  
+  /* feedback-part */
+
+  #feedback-part .feedback-part .text {
+    width: 655px !important;
+    padding: 30px 20px !important;
+  }
+
+  #feedback-part .feedback-part .img img {
+    width: 130px !important;
+    height: 130px !important;
+  }
+
+  /* feedback-part */
+
+
+  /* footer-part */
+  .btop {
+    width: 45px !important;
+    height: 45px !important;
+    font-size: 30px !important;
+    text-align: center !important;
+    line-height: 44px !important;
   }
 
   /* footer-part */
