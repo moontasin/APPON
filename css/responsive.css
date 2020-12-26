@@ -171,8 +171,6 @@
   /* footer-part */
 }
 
-
-
 @media (min-width:576px) and (max-width:767px) {
 
   /* menu-part */
@@ -362,7 +360,49 @@
   /* footer-part */
 
 }
+
 @media (min-width:768px) and (max-width:991px) {
+
+    /* menu-part */
+    nav {
+      padding: 0 15px;
+    }
+  
+    nav .fixed {
+      padding: 0 15px !important;
+    }
+  
+    nav .navbar-brand img {
+      width: 100%;
+    }
+  
+    nav ul {
+      margin-top: 8px;
+      background: #222222;
+    }
+  
+    nav ul li a {
+      margin-top: 10px;
+      text-align: center;
+    }
+  
+    nav ul li a:after {
+      position: absolute;
+      bottom: 2px;
+      left: 178px !important;
+      width: 0%;
+      height: 3px;
+      background: #744fa0;
+      content: "";
+      transition: .4s;
+      text-align: center;
+    }
+  
+    nav .tbn {
+      text-align: center;
+    }
+  
+    /* menu-part */
 
   /* about-part */
   #about {
