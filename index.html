@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/venobox.css">
     <link rel="stylesheet" href="css/slick.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -221,7 +222,9 @@
         </div>
         <div class="banner">
             <div class="overlay">
-                <a href="#"><i class="fa fa-play-circle-o" aria-hidden="true"></i></a>
+                <a class="venobox" data-autoplay="true" data-vbtype="video"
+                    href="https://youtu.be/fjQb12gqeXc?list=RDfjQb12gqeXc"><i class="fa fa-play-circle-o"
+                        aria-hidden="true"></i></a>
             </div>
         </div>
     </section>
@@ -229,6 +232,8 @@
     <!-- ================watch-part=================== -->
 
     <!-- ================features-part=================== -->
+
+    
 
     <section id="features">
         <div class="title">
@@ -238,63 +243,162 @@
         <div class="container">
             <div class="web">
                 <div class="row">
-                    <div class="col-lg-4">
-                        <div class="one">
-                            <div class="item">
-                                <i class="fa fa-lock" aria-hidden="true"></i>
-                                <h2>Phone Sequrity</h2>
-                                <p>Sequre your phone with Appon.</p>
-                            </div>
-
-
-                            <div class="item">
-                                <i class="fa fa-video-camera" aria-hidden="true"></i>
-                                <h2>vedio call</h2>
-                                <p>You can enjoy vedio call.</p>
-                            </div>
-
-
-                            <div class="item">
-                                <i class="fa fa-cloud" aria-hidden="true"></i>
-                                <h2>global weather</h2>
-                                <p>You’ll get notified with the help of Appon.</p>
-                            </div>
-
-
-                            <div class="item">
-                                <i class="fa fa-comments-o" aria-hidden="true"></i>
-                                <h2>free chat</h2>
-                                <p>By using Appon freely chat.</p>
-                            </div>
-
-
-                            <div class="item item2">
-                                <i class="fa fa-shopping-bag" aria-hidden="true"></i>
-                                <h2>online Shopping</h2>
-                                <p>Make Shopping through Appon.</p>
-                            </div>
-
-
+                    <div class="col-4">
+                        <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                            <a class="nav-link active" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab"
+                                aria-controls="v-pills-home" aria-selected="true">
+                                <div class="item">
+                                    <i class="fa fa-lock" aria-hidden="true"></i>
+                                    <h2>Phone Sequrity</h2>
+                                    <p>Sequre your phone with Appon.</p>
+                                </div>
+                            </a>
+            
+                            <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab"
+                                aria-controls="v-pills-profile" aria-selected="false">
+                                <div class="item">
+                                    <i class="fa fa-video-camera" aria-hidden="true"></i>
+                                    <h2>vedio call</h2>
+                                    <p>You can enjoy vedio call.</p>
+                                </div>
+                            </a>
+            
+                            <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab"
+                                aria-controls="v-pills-messages" aria-selected="false">
+                                <div class="item">
+                                    <i class="fa fa-cloud" aria-hidden="true"></i>
+                                    <h2>global weather</h2>
+                                    <p>You’ll get notified with the help of Appon.</p>
+                                </div>
+                            </a>
+            
+                            <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab"
+                                aria-controls="v-pills-settings" aria-selected="false">
+                                <div class="item">
+                                    <i class="fa fa-comments-o" aria-hidden="true"></i>
+                                    <h2>free chat</h2>
+                                    <p>By using Appon freely chat.</p>
+                                </div>
+                            </a>
+            
+                            <a class="nav-link" id="v-pills-online-tab" data-toggle="pill" href="#v-pills-online" role="tab"
+                                aria-controls="v-pills-online" aria-selected="false">
+                                <div class="item item2">
+                                    <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                    <h2>online Shopping</h2>
+                                    <p>Make Shopping through Appon.</p>
+                                </div>
+                            </a>
                         </div>
                     </div>
-
-                    <div class="col-lg-4">
-                        <div class="two">
-                            <img src="images/features.png" alt="features">
-                        </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="three">
-                            <h2>Global Weather</h2>
-                            <p class="p1">Appon is the best app ever I had seen. So I want to use it everyone, when an
-                                nknown
-                                printer took
-                                a galley of typnd scrambled it to make a type specimen book. urvived not only five
-                                centuries,
-                                but also the leap into typesetting, remaining essentially unchanged</p>
-                            <p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem. </p>
-
+                    <div class="col-8">
+                        <div class="tab-content" id="v-pills-tabContent">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                aria-labelledby="v-pills-home-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="two">
+                                            <img src="images/features.png" alt="features">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="three">
+                                            <h2>Phone Sequrity</h2>
+                                            <p class="p1">Appon is the best app ever I had seen. So I want to use it everyone, when an nknown printer took a
+                                                galley of typnd scrambled it to make a type specimen book. urvived not only five centuries, but also
+                                                the leap into typesetting, remaining essentially unchanged</p>
+                                            <p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem. </p>
+            
+                                        </div>
+                                    </div>
+                                </div>
+            
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="two">
+                                            <img src="images/screen1.png" alt="features">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="three">
+                                            <h2>video call</h2>
+                                            <p class="p1">Appon is the best app ever I had seen. So I want to use it everyone, when an nknown printer took a
+                                                galley of typnd scrambled it to make a type specimen book. urvived not only five centuries, but also
+                                                the leap into typesetting, remaining essentially unchanged.alertLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem. 
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem. 
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.</p>
+                                            <p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem. </p>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="two">
+                                            <img src="images/screen2.png" alt="features">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="three">
+                                            <h2>Global Weather</h2>
+                                            <p class="p1">Appon is the best app ever I had seen. So I want to use it everyone, when an nknown printer took a
+                                                galley of typnd scrambled it to make a type specimen book. urvived not only five centuries, but also
+                                                the leap into typesetting, remaining essentially unchanged</p>
+                                            <p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem. </p>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="two">
+                                            <img src="images/screen3.png" alt="features">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="three">
+                                            <h2>free chat</h2>
+                                            <p class="p1">Appon is the best app ever I had seen. So I want to use it everyone, when an nknown printer took a
+                                                galley of typnd scrambled it to make a type specimen book. urvived not only five centuries, but also
+                                                the leap into typesetting, remaining essentially unchanged.alertLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem. 
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem. 
+                                                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem.</p>
+                                            <p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem. </p>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="v-pills-online" role="tabpanel" aria-labelledby="v-pills-online-tab">
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="two">
+                                            <img src="images/screen4.png" alt="features">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <div class="three">
+                                            <h2>online Shopping</h2>
+                                            <p class="p1">Appon is the best app ever I had seen. So I want to use it everyone, when an nknown printer took a
+                                                galley of typnd scrambled it to make a type specimen book. urvived not only five centuries, but also
+                                                the leap into typesetting, remaining essentially unchanged</p>
+                                            <p class="p2">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                                Lorem. </p>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -437,7 +541,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <div class="col-lg-4">
                     <div class="member wow bounceInRight" data-wow-delay=".5s">
                         <div class="img">
@@ -564,6 +668,7 @@
     <script src="js/wow.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/venobox.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 

@@ -65,6 +65,9 @@ $('.screen-slide').slick({
     ]
   });
 
+
+  $('.venobox').venobox();
+
 $('#banner').slick({
     dots: true,
     infinite: true,

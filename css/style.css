@@ -218,10 +218,16 @@ nav .tbn a:hover {
 #banner .banner-slide .overlay a {
     background: #744fa0;
     color: #fff;
-    padding: 10px 48px;
+    padding: 10px 40px;
     border-radius: 5px;
     display: inline-block;
     position: relative;
+    margin-left: 20px;
+    transition: .6s;
+}
+#banner .banner-slide .overlay a:hover{
+    background: #fff;
+    color: #000;
 }
 
 #banner .banner-slide .overlay a span {
