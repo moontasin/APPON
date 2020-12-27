@@ -88,61 +88,36 @@
   /* screenshort-part */
 
   /* features-part */
-
-  #features .title h2 {
-    font-size: 20px !important;
-  }
-
-  #features .one .item::after {
-    width: 250px !important;
-  }
-
-  #features .one .item:hover::after {
-    width: 98% !important;
-  }
-
-  #features .two img {
-    margin-left: 14px !important;
-  }
-
-  #features .three h2 {
-    text-align: center !important;
-    margin-top: 20px !important;
-  }
-
-  #features .three .p1 {
-    text-align: center !important;
-  }
-  #features .three .p2 {
-    text-align: center !important;
-  }
-
-  /* features-part */
-
-  /* pricing-part */
-
-  #pricing .freeplan {
-    margin-left: 0 !important;
-
-  }
-
-  #pricing .freeplan:hover {
-    transform: scale(1) !important;
-  }
-
-  /* pricing-part */
-
-  /* feedback-part */
-
-  #feedback-part .feedback-part .text {
-    width: 290px !important;
-    padding: 30px 20px !important;
-  }
-
-  #feedback-part .feedback-part .img img {
-    width: 75px !important;
-    height: 75px !important;
-  }
+  #feedback-part .feedback-part .overlay .slider{
+    width: auto;
+ }
+ #feedback-part .feedback-part .overlay .slider .slick-list{
+    height:400px !important;
+ }
+ #feedback-part .feedback-part .text{
+    height: 360px !important;
+    width: auto;
+    margin-left: 0px !important;
+ }
+ #feedback-part .feedback-part .overlay .text .p1{
+    width: auto !important;
+    line-height: 2 !important;
+ }
+ 
+ #feedback-part .feedback-part .overlay .img-slider .image{
+  width: 123px !important;
+  height: 120px !important;
+ }
+ 
+ #feedback-part .feedback-part .overlay .one{
+    margin-top: 150px;
+    height: 170px !important;
+ }
+ 
+ #feedback-part .feedback-part .overlay .one ul {
+    top:117% !important;
+ left: 49% !important;
+ }
 
   /* feedback-part */
 
@@ -262,34 +237,36 @@
 
   /* features-part */
 
-  #features .title h2 {
-    font-size: 20px !important;
-  }
-
-  #features .one .item::after {
-    width: 250px !important;
-  }
-
-  #features .one .item:hover::after {
-    width: 98% !important;
-  }
-
-  #features .two img {
-    margin-left: 14px !important;
-  }
-
-  #features .three h2 {
-    text-align: center !important;
-    margin-top: 20px !important;
-  }
-
-  #features .three .p1 {
-    text-align: center !important;
-  }
-  #features .three .p2{
-    text-align: center !important;
-  }
-
+  #feedback-part .feedback-part .overlay .slider{
+    width: auto;
+ }
+ #feedback-part .feedback-part .overlay .slider .slick-list{
+    height:400px !important;
+ }
+ #feedback-part .feedback-part .text{
+    height: 360px !important;
+    width: auto;
+    margin-left: 0px !important;
+ }
+ #feedback-part .feedback-part .overlay .text .p1{
+    width: auto !important;
+    line-height: 2 !important;
+ }
+ 
+ #feedback-part .feedback-part .overlay .img-slider .image{
+  width: 123px !important;
+  height: 120px !important;
+ }
+ 
+ #feedback-part .feedback-part .overlay .one{
+    margin-top: 150px;
+    height: 170px !important;
+ }
+ 
+ #feedback-part .feedback-part .overlay .one ul {
+    top:117% !important;
+ left: 49% !important;
+ }
   /* features-part */
 
   /* pricing-part */
@@ -306,21 +283,22 @@
   #pricing .freeplan:hover {
     transform: scale(1) !important;
   }
-  #pricing .freeplan .button{
+
+  #pricing .freeplan .button {
     margin-bottom: 60px !important;
   }
 
   /* pricing-part */
-  
+
   /* member-part */
-  
-  #team-part .member{
+
+  #team-part .member {
     width: 400px !important;
     margin: 0 auto;
   }
-  
+
   /* member-part */
-  
+
   /* feedback-part */
 
   #feedback-part .feedback-part .text {
@@ -363,46 +341,46 @@
 
 @media (min-width:768px) and (max-width:991px) {
 
-    /* menu-part */
-    nav {
-      padding: 0 15px;
-    }
-  
-    nav .fixed {
-      padding: 0 15px !important;
-    }
-  
-    nav .navbar-brand img {
-      width: 100%;
-    }
-  
-    nav ul {
-      margin-top: 8px;
-      background: #222222;
-    }
-  
-    nav ul li a {
-      margin-top: 10px;
-      text-align: center;
-    }
-  
-    nav ul li a:after {
-      position: absolute;
-      bottom: 2px;
-      left: 178px !important;
-      width: 0%;
-      height: 3px;
-      background: #744fa0;
-      content: "";
-      transition: .4s;
-      text-align: center;
-    }
-  
-    nav .tbn {
-      text-align: center;
-    }
-  
-    /* menu-part */
+  /* menu-part */
+  nav {
+    padding: 0 15px;
+  }
+
+  nav .fixed {
+    padding: 0 15px !important;
+  }
+
+  nav .navbar-brand img {
+    width: 100%;
+  }
+
+  nav ul {
+    margin-top: 8px;
+    background: #222222;
+  }
+
+  nav ul li a {
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  nav ul li a:after {
+    position: absolute;
+    bottom: 2px;
+    left: 178px !important;
+    width: 0%;
+    height: 3px;
+    background: #744fa0;
+    content: "";
+    transition: .4s;
+    text-align: center;
+  }
+
+  nav .tbn {
+    text-align: center;
+  }
+
+  /* menu-part */
 
   /* about-part */
   #about {
@@ -447,7 +425,8 @@
   #features .one .item::after {
     width: 250px !important;
   }
-  #features .one{
+
+  #features .one {
     margin-left: 30%;
     margin-top: 40px;
   }
@@ -469,7 +448,8 @@
   #features .three .p1 {
     text-align: center !important;
   }
-  #features .three .p2{
+
+  #features .three .p2 {
     text-align: center !important;
   }
 
@@ -489,21 +469,22 @@
   #pricing .freeplan:hover {
     transform: scale(1.1) !important;
   }
-  #pricing .freeplan .button{
+
+  #pricing .freeplan .button {
     margin-bottom: 60px !important;
   }
 
   /* pricing-part */
-  
+
   /* member-part */
-  
-  #team-part .member{
+
+  #team-part .member {
     width: 400px !important;
     margin: 0 auto;
   }
-  
+
   /* member-part */
-  
+
   /* feedback-part */
 
   #feedback-part .feedback-part .text {
@@ -553,5 +534,3 @@
 
 
 }
-
-
