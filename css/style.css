@@ -835,16 +835,12 @@ nav .tbn a:hover {
 }
 
 #feedback-part .feedback-part .overlay .slider {
-    position: relative;
-    
-    margin: 0 auto;
+    margin: 0 auto !important;
 }
 
 #feedback-part .feedback-part .text {
-    width: 0;
     background: #f1f1f1;
-    /* margin: 0 auto; */
-    /* margin-top: 40px; */
+    /* width: auto !important; */
     height: 230px;
     display: inline-block;
     text-align: center;
@@ -852,7 +848,7 @@ nav .tbn a:hover {
     padding-left: 30px;
     padding-right: 30px;
     border-radius: 20px;
-    position: relative;
+
 }
 
 #feedback-part .feedback-part .overlay .text .p1 {
@@ -884,7 +880,6 @@ nav .tbn a:hover {
 }
 
 #feedback-part .feedback-part .overlay .slider .slick-list {
-    /* width: auto; */
     height: 245px;
 }
 
@@ -951,7 +946,7 @@ nav .tbn a:hover {
 #feedback-part .feedback-part .overlay .one ul {
     position: absolute;
     top: 117%;
-left: 49%;
+    left: 48%;
     transform: translate(-50%, -50%);
 
 }
@@ -988,75 +983,6 @@ left: 49%;
     background: transparent;
     content: "";
 }
-
-/* #feedback-part .feedback-part .text {
-    width: 670px;
-    background: #f1f1f1;
-    margin: 0 auto;
-    text-align: center;
-    padding: 30px 60px;
-    border-radius: 5px;
-    position: relative;
-
-}
-
-#feedback-part .feedback-part .text .details {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #777777;
-
-}
-
-#feedback-part .feedback-part .text i {
-    color: #744fa0;
-}
-
-#feedback-part .feedback-part .text h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 18px;
-    color: #353535;
-    font-weight: 700;
-}
-
-#feedback-part .feedback-part .text .designation {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 14px;
-    color: #555555;
-}
-
-#feedback-part .feedback-part .text .shape {
-    width: 20px;
-    height: 20px;
-    background: #f1f1f1;
-    position: absolute;
-    bottom: -8px;
-    left: 50%;
-    transform: translateX(-50%) rotate(45deg);
-    border-radius: 5px;
-}
-
-#feedback-part .feedback-part .img {
-    text-align: center;
-    margin-top: 40px;
-}
-
-#feedback-part .feedback-part .img img {
-    margin-left: 20px;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    
-
-}
-
-#feedback-part .feedback-part .img .m {
-    margin-left: 0px;
-}
-
-#feedback-part .feedback-part .img .large {
-    transform: scale(1.2);
-    border: 2px solid #744fa0;
-} */
 
 /* =================feedback-part==================== */
 

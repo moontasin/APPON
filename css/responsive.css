@@ -88,36 +88,34 @@
   /* screenshort-part */
 
   /* features-part */
-  #feedback-part .feedback-part .overlay .slider{
-    width: auto;
- }
- #feedback-part .feedback-part .overlay .slider .slick-list{
-    height:400px !important;
- }
- #feedback-part .feedback-part .text{
+  #feedback-part .feedback-part .overlay .slider .slick-list {
+    height: 400px !important;
+  }
+
+  #feedback-part .feedback-part .text {
     height: 360px !important;
     width: auto;
-    margin-left: 0px !important;
- }
- #feedback-part .feedback-part .overlay .text .p1{
+  }
+
+  #feedback-part .feedback-part .overlay .text .p1 {
     width: auto !important;
     line-height: 2 !important;
- }
- 
- #feedback-part .feedback-part .overlay .img-slider .image{
-  width: 123px !important;
-  height: 120px !important;
- }
- 
- #feedback-part .feedback-part .overlay .one{
-    margin-top: 150px;
+  }
+
+  #feedback-part .feedback-part .overlay .img-slider .image {
+    width: 123px !important;
+    height: 120px !important;
+    margin: 0 auto;
+  }
+
+  #feedback-part .feedback-part .overlay .one {
     height: 170px !important;
- }
- 
- #feedback-part .feedback-part .overlay .one ul {
-    top:117% !important;
- left: 49% !important;
- }
+  }
+
+  #feedback-part .feedback-part .overlay .one ul {
+    top: 117% !important;
+    left: 48% !important;
+  }
 
   /* feedback-part */
 
@@ -237,36 +235,35 @@
 
   /* features-part */
 
-  #feedback-part .feedback-part .overlay .slider{
-    width: auto;
- }
- #feedback-part .feedback-part .overlay .slider .slick-list{
-    height:400px !important;
- }
- #feedback-part .feedback-part .text{
+  #feedback-part .feedback-part .overlay .slider .slick-list {
+    height: 400px !important;
+  }
+
+  #feedback-part .feedback-part .text {
     height: 360px !important;
     width: auto;
-    margin-left: 0px !important;
- }
- #feedback-part .feedback-part .overlay .text .p1{
+    left: 28px !important;
+  }
+
+  #feedback-part .feedback-part .overlay .text .p1 {
     width: auto !important;
     line-height: 2 !important;
- }
- 
- #feedback-part .feedback-part .overlay .img-slider .image{
-  width: 123px !important;
-  height: 120px !important;
- }
- 
- #feedback-part .feedback-part .overlay .one{
-    margin-top: 150px;
+  }
+
+  #feedback-part .feedback-part .overlay .img-slider .image {
+    width: 123px !important;
+    height: 120px !important;
+    margin: 0 auto;
+  }
+
+  #feedback-part .feedback-part .overlay .one {
     height: 170px !important;
- }
- 
- #feedback-part .feedback-part .overlay .one ul {
-    top:117% !important;
- left: 49% !important;
- }
+  }
+
+  #feedback-part .feedback-part .overlay .one ul {
+    top: 117% !important;
+    left: 48% !important;
+  }
   /* features-part */
 
   /* pricing-part */
@@ -418,41 +415,37 @@
 
   /* features-part */
 
-  #features .title h2 {
-    font-size: 20px !important;
+  #feedback-part .feedback-part .overlay .slider .slick-list {
+    height: 400px !important;
   }
 
-  #features .one .item::after {
-    width: 250px !important;
+  #feedback-part .feedback-part .text {
+    height: 360px !important;
+  }
+  #feedback-part .feedback-part .text {
+    width: auto !important;
+    padding: 30px 20px !important;
+    left: 24px !important;
+}
+
+  #feedback-part .feedback-part .overlay .text .p1 {
+    width: auto !important;
+    line-height: 2 !important;
   }
 
-  #features .one {
-    margin-left: 30%;
-    margin-top: 40px;
+  #feedback-part .feedback-part .overlay .img-slider .image {
+    width: 123px !important;
+    height: 120px !important;
   }
 
-  #features .one .item:hover::after {
-    width: 98% !important;
+  #feedback-part .feedback-part .overlay .one {
+    height: 170px !important;
   }
 
-  #features .two img {
-    margin-top: 40px;
-    margin-left: 30% !important;
+  #feedback-part .feedback-part .overlay .one ul {
+    top: 117% !important;
+    left: 47% !important;
   }
-
-  #features .three h2 {
-    text-align: center !important;
-    margin-top: 20px !important;
-  }
-
-  #features .three .p1 {
-    text-align: center !important;
-  }
-
-  #features .three .p2 {
-    text-align: center !important;
-  }
-
   /* features-part */
 
   /* pricing-part */
